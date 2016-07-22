@@ -1,0 +1,226 @@
+.clear {
+    clear: both;
+}
+
+.anny-nav {
+    text-align: right;
+    background: #f3f3f3;
+    p {
+        display: inline;
+        color: #888;
+        margin-bottom: 0;
+        input {
+            width: 150px;
+            display: inline;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    a {
+        margin-right: 30px;
+    }
+}
+
+header {
+    background: #f3f3f3;
+    padding: 10px 0;
+    h5 {
+        line-height: 40px;
+        margin-bottom: 0;
+        float: left;
+    }
+    ul {
+        float: right;
+        li {
+            a.button {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.hero-box1 {
+    width: 50%;
+    min-height: 600px;
+    background: #444;
+    float: left;
+    h1 {
+        padding: 20% 0 0 10%;
+        color: #fff;
+    }
+    h5 {
+        padding: 0 10% 0;
+        color: #ddd;
+        padding-bottom: 20px;
+    }
+    a.button {
+        margin-left: 10%;
+    }
+}
+
+.hero-box2 {
+    width: 50%;
+    min-height: 600px;
+    background: #333;
+    float: left;
+    div {
+        height: 200px;
+        .copy {
+            padding: 5%;
+            h4 {
+                color: #fff;
+                line-height: 1.2;
+                small {
+                    font-size: 65%;
+                }
+            }
+            a.button {}
+        }
+    }
+    .ceo {
+        background: #111;
+    }
+    .cfo {
+        background: #222;
+    }
+}
+
+.hero {
+    background: #333;
+    text-align: center;
+    padding: 15% 10% 20%;
+    max-height: 600px;
+    h1 {
+        color: #888;
+    }
+}
+
+.stage {
+    .row.small-up-3.medium-up-6.large-up-6 {
+        text-align: center;
+        h3 {
+            padding: 0 14%;
+        }
+        .column {
+            border: none;
+            img {
+                //width: 80%;
+                margin: 15px 0;
+            }
+        }
+    }
+}
+
+.stage.one {
+    padding: 45px 0;
+}
+
+.stage.three {
+    padding: 45px 0;
+    background: #ccc;
+    text-align: center;
+    .row {
+        .column {
+            height: 400px;
+            text-align: center;
+            line-height: 400px;
+            cursor: pointer;
+            span {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
+                h3 {
+                    color: #ccc;
+                }
+                img {
+                    width: 200px;
+                    opacity: .3;
+                }
+            }
+            &:hover {
+                opacity: .9;
+            }
+        }
+        .column.shade-1 {
+            background: #111;
+            width: 66.66%;
+            text-align: left;
+        }
+        .column.shade-2 {
+            background: #222;
+        }
+        .column.shade-3 {
+            background: #333;
+        }
+        .column.shade-4 {
+            background: #444;
+        }
+        .column.shade-5 {
+            background: #555;
+        }
+    }
+}
+
+.home-banner {
+    background: #444;
+    text-align: center;
+    h2 {
+        padding: 80px 10% 30px;
+        color: #eee;
+        small {
+            color: #999;
+        }
+    }
+    a.button {
+        margin-bottom: 80px;
+    }
+}
+
+.box {
+    width: 50%;
+    float: left;
+    min-height: 400px;
+    line-height: 400px;
+    text-align: center;
+    span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+}
+
+.box.one {
+    background: #eee;
+}
+
+.box.two {
+    background: #f5f5f5;
+}
+
+footer {
+    background: #111;
+    .banner {
+        background: #333;
+        height: 100px;
+        .row {
+            h3 {
+                float: left;
+                color: #fff;
+                font-size: 1.6rem;
+                margin: 15px; 
+            }
+            span {
+                float: right;
+                width: 30%;
+                input[type="search"] {
+                    width: 70%;
+                    float: left;
+                    margin-top: 30px;
+                }
+                button {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.menu.expanded > li:nth-last-child(6):first-child,
+.menu.expanded > li:nth-last-child(6):first-child ~ li {
+    width: 100%;
+}
+
+@media (min-width:200px) and (max-width:728px) {
+    header {
+        padding: 0;
+        button.menu-icon {
+            float: right;
+        }
+        ul.menu {
+            margin: 0;
+            li {
+                a {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .hero {
+        .button {
+            width: 100%;
+        }
+    }
+    .hero-box1 {
+        width: 100%;
+        min-height: 300px;
+        background: #444;
+        float: left;
+        h1 {
+            padding-top: 5%;
+        }
+    }
+    .hero-box2 {
+        width: 100%;
+        min-height: 300px;
+        background: #333;
+        float: left;
+        div {
+            height: 130px;
+            a.button {
+                background: transparent;
+                padding-left: 0;
+                padding-top: 0;
+                text-decoration: underline;
+                color: #2199e8;
+            }
+        }
+    }
+    .box {
+        width: 100%;
+        float: left;
+        min-height: 200px;
+        line-height: 200px;
+        text-align: center;
+    }
+    .stage.three {
+        padding:0;
+        .row {
+            .column {
+                height: 200px;
+                line-height: 200px;
+                span {
+                    img {
+                        width: 80px;
+                        opacity: .3;
+                    }
+                }
+                &:hover {
+                    opacity: .9;
+                }
+            }
+            .column.shade-1 {
+                width: 100%;
+            }
+        }
+    }
+}
